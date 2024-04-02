@@ -138,8 +138,8 @@ Cuando lo ejecute deberá ver en la consola algo de esta forma:
 
 ![Fork 1](imgs/sr3.png)
 
-Finalmente, para comprobar que el sistema de recomendación funciona dentro de la aplicación, cree un archivo ``check_rec_sys_db.py`` en la ruta ``movie/management/command``. El archivo lo puede ver en [check_rec_sys_db.py](aux_files/check_rec_sys_db.py).
+Finalmente, para comprobar que el sistema de recomendación funciona dentro de la aplicación, cree un archivo ``check_rec_sys.py`` en la ruta ``movie/management/command``. El archivo lo puede ver en [check_rec_sys_db.py](aux_files/check_rec_sys.py).
 
 Cuando lo ejecute deberá ver en la consola algo de esta forma:
 
-![Fork 1](imgs/sr4.png)
+![Fork 1](imgs/sr4a.png)
