@@ -34,7 +34,14 @@ Al ejecutar el Script puede ver lo siguiente:
 
 En este caso, los embeddings nos dicen que Salvar al soldado Ryan es más parecido a la Lista Schindler. Tiene sentido porque las dos películas son de la segunda guerra mundial. 
 
-Además nos dicen que si quisiera ver una película de la segunda guerra mundial, debería ver Salvar al soldado Ryan.
+El script [movie_recommendations.py](movie_recommendations.py) muestra cómo podemos utilizar los embeddings y la similitud de coseno para recomendar películas a partir de un prompt.
+
+Al ejecutar el Script puede ver lo siguiente:
+
+![Fork 1](imgs/rs3a.png)
+
+En este caso, los embeddings nos dicen que Salvar al soldado Ryan es más parecido a la Lista Schindler. Tiene sentido porque las dos películas son de la segunda guerra mundial. 
+
 
 
 Modifique el modelo Movie y agregue un campo adicional que sea el embedding de la descripción.
