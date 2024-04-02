@@ -76,6 +76,10 @@ rec_emb = list(np.frombuffer(emb_binary, dtype=arr.dtype))
 El modelo Movie lo debe modificar de la siguiente forma:
 
 ````python
+from django.db import models
+import numpy as np
+
+# create your models here
 def get_default_array():
   default_arr = np.random.rand(1536)  # Adjust this to your desired default array
   return default_arr.tobytes()
@@ -92,6 +96,7 @@ class Movie(models.Model):
 
     def __str__(self): 
         return self.title
+
 ````
 
 Note que está agregando un campo ``emb`` de tipo ``models.BinaryField``
