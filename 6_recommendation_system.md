@@ -38,7 +38,7 @@ En las líneas 34 a 42 del script se generan los embeddings de las descripciones
 
 El script [movie_recommendations.py](movie_recommendations.py) muestra cómo podemos utilizar los embeddings y la similitud de coseno para recomendar películas a partir de un prompt.
 
-Al ejecutar el Script donde el prompt dice ``película de un pianista` puede ver lo siguiente:
+Al ejecutar el Script donde el prompt dice ``película de un pianista`` puede ver lo siguiente:
 
 ![Fork 1](imgs/sr3a.png)
 
