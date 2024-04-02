@@ -22,9 +22,9 @@ Cuando ejecute el script, deberá ver en la consola algo de la siguiente forma:
 Puede ver que se imprime el nombre de la película, el prompt completo y la descripción obtenida.
 
 Al ejecutar todo el script (incluyendo las lineas comentadas) se genera el archivo ``movie_descriptions.json``
-que se va a utilizar para alimentar la base de datos de películas. En este caso, por tiempo, no se va a ejecutar el script completo y el archivo resultante se puede consultar en [movie_descriptions.json](movie_descriptions.json)
+que se va a utilizar para alimentar la base de datos de películas. En este caso, por tiempo, no se va a ejecutar el script completo y el archivo resultante se puede consultar en [movie_descriptions.json](movie_descriptions.json).
 
-Ahora se utilizará la información del archivo [movie_descriptions.json](movie_descriptions.json) para agregar items a la base de datos. Para esto nos vamos a dirigir a la carpeta ``DjangoProjectBase``. Asumiendo que la consola está en el directorio raíz del proyecto ``Taller3-PI1``, escriba lo siguiente:
+Ahora se utilizará la información del archivo [movie_descriptions.json](movie_descriptions.json) para agregar items a la base de datos. Para esto nos vamos a dirigir a la carpeta ``DjangoProjectBase``. Asumiendo que la consola está en el directorio raíz del proyecto ``Taller3-PI1``, ejecute lo siguiente:
 
 ````shell
 cd DjangoProjectBase
