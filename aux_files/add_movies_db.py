@@ -1,8 +1,7 @@
 from django.core.management.base import BaseCommand
 from movie.models import Movie
-import json
 import os
-import numpy as np
+import json
 
 class Command(BaseCommand):
     help = 'Load movies from movie_descriptions.json into the Movie model'
@@ -18,15 +17,15 @@ class Command(BaseCommand):
             movies = json.load(file)
         
         # Add products to the database
-        cont = 0
-        for movie in movies:
-            movie_to_update = Movie.objects.filter(title = movie['title']).first() #Se asegura que la película no exista en la base de datos
-            if not movie_to_update:
-                print(f"{movie['title']} is not in the database")   
-            else:           
-                movie_to_update.description = movie["description"]
-                movie_to_update.save()
-                cont+=1
-                    
+        for i in range(len(movies)):
+            movie = movies[i]
+            exist = Movie.objects.filter(title = movie['title']).first() #Se asegura que la película no exista en la base de datos
+            if not exist:              
+                Movie.objects.create(title = movie['title'],
+                                     image = 'movie/images/default.jpg',
+                                     genre = movie['genre'],
+                                     year = movie['year'])        
         
-        self.stdout.write(self.style.SUCCESS(f'Successfully added {cont} descriptions to the database'))
+        #self.stdout.write(self.style.SUCCESS(f'Successfully added {cont} products to the database'))
+                
+                
