@@ -13,7 +13,7 @@ El script [movie_pictures.py](movie_pictures.py) muestra cómo conectarse a la A
 
 Cuando ejecute este script, debe ver en la consola el nombre de la película, la descripción y en una ventana a parte la ilustración creada por la API
 
-![Fork 1](imgs/mp1.png)
+![Fork 1](imgs/mp1a.png)
 
 Se podría crear un script para crear y modificar las imágenes de la base de datos en la carpeta ``movie/management/commands``. Por ejemplo, si se ubica el archivo [add_images_db.py](aux_files/add_images_db.py) en la carpeta mencionada y se ejecuta el comando:
 
