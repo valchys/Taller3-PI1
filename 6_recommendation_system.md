@@ -42,7 +42,7 @@ Al ejecutar el Script donde el prompt dice ``película de un pianista`` puede ve
 
 ![Fork 1](imgs/sr3a.png)
 
-En este caso, los embeddings nos dicen quesi queremos ver una película de un pianista deberíamos ver El Pianista. 
+En este caso, los embeddings nos dicen que si queremos ver una película de un pianista deberíamos ver El Pianista. 
 
 Ahora, se deben agregar estos embeddings a la base de datos para poder hacer este tipo de búsquedas.
 
