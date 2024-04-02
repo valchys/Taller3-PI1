@@ -51,7 +51,7 @@ python manage.py add_descriptions_db
 ````
 Cuando termine de ejecutarse, debe ver un mensaje como el siguiente:
 
-![Fork 1](imgs/md4.png)
+![Fork 1](imgs/md4a.png)
 
 Puede ejecutar el servidor y verá algo de la siguiente forma:
 
