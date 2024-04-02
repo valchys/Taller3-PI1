@@ -28,7 +28,7 @@ En resumen, la similitud de coseno compara la orientación de dos vectores en lu
 
 El script [movie_similarities.py](movie_similarities.py) muestra cómo podemos utilizar los embeddings y la similitud de coseno para recomendar películas a partir de un prompt.
 
-Al ejecutar el Script puede ver lo siguiente:
+Al ejecutar el Script donde el prompt dice ``película de un pianista`` puede ver lo siguiente:
 
 ![Fork 1](imgs/rs2a.png)
 
