@@ -29,7 +29,7 @@ Ahora se utilizará la información del archivo [movie_descriptions.json](movie_
 ````shell
 cd DjangoProjectBase
 ````
-Si ejecuta el servidor se dará cuenta que este es el proyecto que se creó en el workshop 2 con algunas modificaciones a la lista de películas
+Si ejecuta el servidor se dará cuenta que este es el proyecto que se creó en el workshop 2 con algunas modificaciones a la lista de películas.
 
 ````shell
 python manage.py runserver
