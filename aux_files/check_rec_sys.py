@@ -7,7 +7,7 @@ from openai import OpenAI
 
 from dotenv import load_dotenv, find_dotenv
 
-def get_embedding(text, client, model="text-embedding-ada-002"):
+def get_embedding(text, client, model="text-embedding-3-small"):
    text = text.replace("\n", " ")
    return client.embeddings.create(input = [text], model=model).data[0].embedding
 
