@@ -11,7 +11,7 @@ cd ..
 
 El script [movie_pictures.py](movie_pictures.py) muestra cómo conectarse a la API de generación de imágenes. En este caso, vamos a utilizar el título de la película como __prompt__, sin embargo, usted puede usar diferentes prompts para generar mejores ilustraciones, o utilizar la descripción de las películas.
 
-Cuando ejecute este script, debe ver en la consola el nombre de la película, la descripción y en una ventana a parte la ilustración creada por la API
+Cuando ejecute este script, debe ver en la consola el nombre de la película, la descripción y la ilustración creada por la API
 
 ![Fork 1](imgs/mp1a.png)
 
