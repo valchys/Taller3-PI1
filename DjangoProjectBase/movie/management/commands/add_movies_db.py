@@ -17,15 +17,17 @@ class Command(BaseCommand):
             movies = json.load(file)
         
         # Add products to the database
+        cont = 0
         for i in range(len(movies)):
             movie = movies[i]
             exist = Movie.objects.filter(title = movie['title']).first() #Se asegura que la película no exista en la base de datos
             if not exist:              
+                cont = cont+1
                 Movie.objects.create(title = movie['title'],
                                      image = 'movie/images/default.jpg',
                                      genre = movie['genre'],
                                      year = movie['year'])        
         
-        #self.stdout.write(self.style.SUCCESS(f'Successfully added {cont} products to the database'))
+        self.stdout.write(self.style.SUCCESS(f'Successfully added {cont} products to the database'))
                 
                 
