@@ -36,7 +36,7 @@ python manage.py runserver
 ````
 ![Fork 1](imgs/md2a.png)
 
-__Nota:__ Antes de continuar es necesario crear un superusuario para acceder al administrador de django.
+__Nota:__ Antes de continuar es necesario crear un superusuario para acceder al administrador de Django.
 
 ````shell
 python manage.py createsuperuser
