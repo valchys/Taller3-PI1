@@ -26,9 +26,9 @@ __Aplicación a Embeddings:__ Cuando se utiliza con embeddings, la similitud de 
 
 En resumen, la similitud de coseno compara la orientación de dos vectores en lugar de su magnitud, siendo una métrica esencial para evaluar la similitud semántica entre embeddings en el PLN.
 
-El script [movie_similarities.py](movie_similarities.py) muestra cómo podemos utilizar los embeddings y la similitud de coseno para recomendar películas a partir de un prompt.
+El script [movie_similarities.py](movie_similarities.py) muestra cómo podemos utilizar los embeddings y la similitud de coseno para encontrar similitudes entre películas.
 
-Al ejecutar el Script donde el prompt dice ``película de un pianista`` puede ver lo siguiente:
+Al ejecutar el Script puede ver lo siguiente:
 
 ![Fork 1](imgs/rs2a.png)
 
@@ -36,13 +36,13 @@ En este caso, los embeddings nos dicen que Salvar al soldado Ryan es más pareci
 
 El script [movie_recommendations.py](movie_recommendations.py) muestra cómo podemos utilizar los embeddings y la similitud de coseno para recomendar películas a partir de un prompt.
 
-Al ejecutar el Script puede ver lo siguiente:
+Al ejecutar el Script donde el prompt dice ``película de un pianista` puede ver lo siguiente:
 
 ![Fork 1](imgs/sr3a.png)
 
-En este caso, los embeddings nos dicen que Salvar al soldado Ryan es más parecido a la Lista Schindler. Tiene sentido porque las dos películas son de la segunda guerra mundial. 
+En este caso, los embeddings nos dicen quesi queremos ver una película de un pianista deberíamos ver El Pianista. 
 
-
+Ahora, se deben agregar estos embeddings a la base de datos para poder hacer este tipo de búsquedas.
 
 Modifique el modelo Movie y agregue un campo adicional que sea el embedding de la descripción.
 
