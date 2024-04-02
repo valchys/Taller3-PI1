@@ -1,7 +1,7 @@
 ## Descripciones de películas
 
 En esta etapa del proyecto se utilizará la API de OpenAI para generar descripciones de algunas películas que se agregarán a la base de datos.
-Para esto, el archivo ``movie_titles.json`` que se encuentra en la raíz del proyecto, tiene una lista de películas a las que se le agregará información.
+Para esto, el archivo ``movies.json`` que se utilizó en el workshop 2 tiene una lista de películas a las que se le agregará información.
 
 El archivo [movie_descriptions.py](movie_descriptions.py) muestra los pasos para utilizar la API de OpenAI para obtener la descripción de las películas en la lista.
 En este archivo se pueden ver dos funcionalidades principales:
@@ -26,7 +26,7 @@ Al ejecutar todo el script (incluyendo las lineas comentadas) se genera el archi
 que se va a utilizar para alimentar la base de datos de películas. En este caso, por tiempo, no se va a ejecutar el script completo y el archivo resultante se puede consultar en [movie_descriptions.json](movie_descriptions.json)
 
 
-Ahora se utilizará la información del archivo [movie_descriptions.json](movie_descriptions.json) para agregar items a la base de datos. Para esto nos vamos a dirigir a la carpeta ``DjangoProjectBase``. Asumiendo que la consola está en el directorio raíz del proyecto ``ProyectoPeliculas2023-2_Taller3``, escriba lo siguiente:
+Ahora se utilizará la información del archivo [movie_descriptions.json](movie_descriptions.json) para agregar items a la base de datos. Para esto nos vamos a dirigir a la carpeta ``DjangoProjectBase``. Asumiendo que la consola está en el directorio raíz del proyecto ``Taller3-PI1``, escriba lo siguiente:
 
 ````shell
 cd DjangoProjectBase
@@ -37,14 +37,6 @@ Si ejecuta el servidor se dará cuenta que este es el proyecto que se creó en e
 python manage.py runserver
 ````
 ![Fork 1](imgs/md2.png)
-
-__Nota:__ Antes de continuar es necesario __borrar__ la base de datos existente, hacer las migraciones, y crear de nuevo las credenciales de super-usuario.
-
-````shell
-python manage.py makemigrations
-python manage.py migrate
-python manage.py createsuperuser
-````
 
 Ahora dentro de la carpeta de la app movie debe crear una carpeta management y dentro de esta una carpeta commands. Después, debe crear el archivo add_descriptions_db.py.
 
