@@ -71,7 +71,7 @@ emb_binary = np.array(emb).tobytes()
 rec_emb = list(np.frombuffer(emb_binary, dtype=arr.dtype))
 ````
 
-El modelo Movie lo debe modificar de la siguiente forma:
+Modifique el modelo Movie de la siguiente forma:
 
 ````python
 from django.db import models
