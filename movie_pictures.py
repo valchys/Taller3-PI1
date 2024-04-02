@@ -26,9 +26,9 @@ print(movies[idx_movie])
 #Se hace la conexión con la API de generación de imágenes. El prompt en este caso es:
 #Alguna escena de la película + "nombre de la película"
 response = client.images.generate(
-  model="dall-e-2",
-  prompt=f"Alguna escena de la película {movies[np.random.randint(idx_movie)]['title']}",
-  size="256x256",
+  model="dall-e-3",
+  prompt=f"Portada de la película {movies[np.random.randint(idx_movie)]['title']}",
+  size="1024x1024",
   quality="standard",
   n=1,
 )
@@ -44,3 +44,6 @@ def fetch_image(url):
     # Convert the response content into a PIL Image
     image = Image.open(BytesIO(response.content))
     return(image)
+
+img = fetch_image(image_url)
+img.show()
