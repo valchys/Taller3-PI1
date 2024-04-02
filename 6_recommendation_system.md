@@ -34,6 +34,8 @@ Al ejecutar el Script puede ver lo siguiente:
 
 En este caso, los embeddings nos dicen que Salvar al soldado Ryan es más parecido a la Lista Schindler. Tiene sentido porque las dos películas son de la segunda guerra mundial. 
 
+En las líneas 34 a 42 del script se generan los embeddings de las descripciones de las películas en la base de datos y se almacenan en el archivo [movie_descriptions_embeddings.json](movie_descriptions_embeddings.json).
+
 El script [movie_recommendations.py](movie_recommendations.py) muestra cómo podemos utilizar los embeddings y la similitud de coseno para recomendar películas a partir de un prompt.
 
 Al ejecutar el Script donde el prompt dice ``película de un pianista` puede ver lo siguiente:
