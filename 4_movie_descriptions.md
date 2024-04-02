@@ -1,7 +1,7 @@
 ## Descripciones de películas
 
 En esta etapa del proyecto se utilizará la API de OpenAI para generar descripciones de algunas películas que se agregarán a la base de datos.
-Para esto, el archivo ``movies.json`` que se utilizó en el workshop 2 tiene una lista de películas a las que se le agregará información.
+Para esto, el archivo ``movie_titles.json`` tiene una lista de películas a las que se le agregará información.
 
 El archivo [movie_descriptions.py](movie_descriptions.py) muestra los pasos para utilizar la API de OpenAI para obtener la descripción de las películas en la lista.
 En este archivo se pueden ver dos funcionalidades principales:
