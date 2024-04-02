@@ -30,7 +30,7 @@ El script [movie_similarities.py](movie_similarities.py) muestra cómo podemos u
 
 Al ejecutar el Script puede ver lo siguiente:
 
-![Fork 1](imgs/rs2.png)
+![Fork 1](imgs/rs2a.png)
 
 En este caso, los embeddings nos dicen que Salvar al soldado Ryan es más parecido a la Lista Schindler. Tiene sentido porque las dos películas son de la segunda guerra mundial. 
 
