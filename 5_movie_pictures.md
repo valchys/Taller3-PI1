@@ -37,5 +37,5 @@ python manage.py modify_image_paths_db
 
 Cuando ejecute el servidor podrá notar que la imagen de cada película corresponde a la ilustración creada por la API de generación de imágenes
 
-![Fork 1](imgs/mp2.png)
+![Fork 1](imgs/mp2a.png)
 
