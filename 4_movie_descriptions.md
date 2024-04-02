@@ -38,6 +38,14 @@ python manage.py runserver
 ````
 ![Fork 1](imgs/md2a.png)
 
+__Nota:__ Antes de continuar es necesario __borrar__ la base de datos existente, hacer las migraciones, y crear de nuevo las credenciales de super-usuario.
+
+````shell
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+````
+
 Ahora dentro de la carpeta de la app movie debe crear una carpeta management y dentro de esta una carpeta commands. Después, debe crear el archivo add_descriptions_db.py.
 
 ![Fork 1](imgs/md3.png)
